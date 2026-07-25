@@ -1,0 +1,37 @@
+html,
+body {
+  background: #0f0f14 !important;
+  color: #ffffff !important;
+}
+
+html.light,
+body.light {
+  background: #0f0f14 !important;
+  color: #ffffff !important;
+}
+
+* {
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+
+::selection {
+  background: rgba(248, 210, 80, 0.35);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111218;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #f8d250, #9b5cff);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ffe38b, #b786ff);
+}
