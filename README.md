@@ -12,7 +12,7 @@ An AI-powered competitive programming platform designed to help developers prepa
 - AI code review
 - Leaderboards
 - Real-time collaboration
-- Docker-based code execution
+- Docker-based code execution.
 
 ## Tech Stack
 
